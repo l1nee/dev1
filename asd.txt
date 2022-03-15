@@ -1,0 +1,23 @@
+echo "# dev1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:l1nee/dev1.git
+git push -u origin main
+
+git remote add origin git@github.com:l1nee/dev1.git
+git branch -M main
+git push -u origin main
+
+
+-----
+Добавить файл в .gitignore
+git rm --cached --ignore-unmatch application.yml - удаление файла только из репозитория, и физически файл сохранится на диске
+git commit -m "Commit"
+git push origin {branch name}
+--
+git rm --cached file.txt
+git commit
+git push
+-----
